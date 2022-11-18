@@ -102,7 +102,7 @@ Scan TCP ports
 
      nmap -sT 192.168.1.1
      
-Scan using TCP SYN scan
+TCP SYN scan
      
      nmap -sS 192.168.1.1
      
@@ -122,6 +122,17 @@ Detect OS and Services
 
      nmap -A 192.168.1.1
  
+# OS Identification
+
+Nmap can also identify the OS of the target machine by comparing its responses to a database of OS fingerprints.
+
+To activate this functionality, you can use the -O option.
+
+     nmap -O scanme.nmap.org
+
+![174544805-d00171b7-bb95-49b9-b515-a5b224a10f18](https://user-images.githubusercontent.com/106522935/202688440-48630a12-90ca-4180-becb-2dca3f37d11e.png)
+
+
 
 # Nmap Output Formats
 
