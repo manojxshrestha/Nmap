@@ -98,15 +98,17 @@ Scan all 65535 ports
     
 # Nmap Port Scan types
 
-Scan using TCP connect
+Scan TCP ports
 
      nmap -sT 192.168.1.1
      
-Scan using TCP SYN scan (default)	
+Scan using TCP SYN scan
      
      nmap -sS 192.168.1.1
      
 Scan UDP ports	
+
+     nmap -sU 192.168.1.1
      
      nmap -sU -p 123,161,162 192.168.1.1
      
