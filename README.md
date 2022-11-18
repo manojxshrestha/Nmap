@@ -146,23 +146,26 @@ By default, Nmap displays the results of the scan in the standard output (stdout
 
 If you add the option -oN followed by a file name, then the output will be saved to the given file name.
 ![nmap-output-file-768x393](https://user-images.githubusercontent.com/106522935/174545126-3534b755-d03b-4223-8a14-2f1ed0ab38a8.png)
+
 Normal output to a file
 
 The above command generates the following file:
+
 ![nmap-resulted-normal-file](https://user-images.githubusercontent.com/106522935/174545446-80ddf3e1-9888-4eea-8e1d-deb72a88fed4.png)
-Resulted file
 
 Although this is a good format for humans to read, it isn’t as easily understandable by scripts if you ever decide to send the output to another tool.
 
 For this reason, Nmap also supports XML, which can be easily parsed by another program.
 
 If you want to retrieve an XML file as an output, you can use the option -oX.
+
 ![nmap-xml-output (1)](https://user-images.githubusercontent.com/106522935/174545647-ffca05e7-ba84-45f7-bf2e-6769de522b09.png)
+
 Output to an XML file
 
 And here is the generated XML file:
-![nmap-resulted-xml-file (1)](https://user-images.githubusercontent.com/106522935/174545757-c1778f4a-dab6-406b-84f8-f364e1d95fb9.png)
-Generated XML file
+
+![nmap-resulted-xml-file (1)](https://user-images.githubusercontent.com/106522935/174545757-c1778f4a-dab6-406b-84f8-f364e1d95fb9.png)m
 
 You should now have a basic understanding of Nmap and how you can use it. You can perform your own scans and experiment by combining the options that you’ve learned here.
 
