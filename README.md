@@ -165,13 +165,7 @@ Output to an XML file
 
 And here is the generated XML file:
 
-![nmap-resulted-xml-file (1)](https://user-images.githubusercontent.com/106522935/174545757-c1778f4a-dab6-406b-84f8-f364e1d95fb9.png)m
-
-You should now have a basic understanding of Nmap and how you can use it. You can perform your own scans and experiment by combining the options that you’ve learned here.
-
-Of course, Nmap supports other options that we didn’t cover in this post. In fact, we’ve only scratched the surface here.
-
-For further reading, you can refer to the official Nmap reference guide, and if you ever need help while typing a command, just type in the following command: nmap – -help.
+![nmap-resulted-xml-file (1)](https://user-images.githubusercontent.com/106522935/174545757-c1778f4a-dab6-406b-84f8-f364e1d95fb9.png)
 
 
 # Nmap Output Formats
@@ -226,4 +220,11 @@ Find Information about IP address
      
 Gather information related to the IP address and netblock owner of the IP address. Uses ASN, whois and geoip location lookups. See the IP Tools for more information and similar IP address and DNS lookups.
 
+# Summary 
+
+You should now have a basic understanding of Nmap and how you can use it. You can perform your own scans and experiment by combining the options that you’ve learned here.
+
+Of course, Nmap supports other options that we didn’t cover in this post. In fact, we’ve only scratched the surface here.
+
+For further reading, you can refer to the official Nmap reference guide, and if you ever need help while typing a command, just type in the following command: nmap – -help.
 
