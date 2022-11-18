@@ -17,4 +17,4 @@ To scan a single ip we simply give one ip as follows:
      -sn means disable port scanning
  
 
-# Multiple IP Scan
+# 
