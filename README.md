@@ -30,6 +30,24 @@ or
 
 Discovering the target host(s) is the first step towards network reconnaissance. There are multiple ways through which we can determine if the hosts are alive or not.
 
+If you want to test for open ports in your local network, scanning the entire IP address range might take a lot of time. In this case, you should start first with a host discovery phase in which you detect the available machines.
+
+For instance, if you had to scan the network associated with the IP address 192.168.1.1/24, and only three machines are available, then it wouldn’t make sense to test for open ports in every IP address in that range.
+
+This is where host discovery can be useful. It helps you focus your scanning efforts and, instead of 255 addresses, you will only scan the three addresses belonging to the available machines.
+
+To perform host discovery, simply add the -sn option.
+
+In the following test, I used Nmap to scan for available hosts in my local network.
+
+By providing 192.168.1.0-255 as the target, Nmap will scan all addresses ranging from 192.168.1.0 to 192.168.1.255.
+
+![174541926-a5715b53-407b-4865-b705-13c8301e335c (1)](https://user-images.githubusercontent.com/106522935/202656453-9516cb01-71c6-4adc-b474-d46336a3f177.png)
+
+Nmap – Host Discovery As shown in this output, Nmap detected 5 hosts that are connected to my network.
+
+This type of scan is also called a ping sweep.
+
 # Single IP Scan
 To scan a single ip we simply give one ip as follows:
 
