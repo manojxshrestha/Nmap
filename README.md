@@ -132,7 +132,14 @@ To activate this functionality, you can use the -O option.
 
 ![174544805-d00171b7-bb95-49b9-b515-a5b224a10f18](https://user-images.githubusercontent.com/106522935/202688440-48630a12-90ca-4180-becb-2dca3f37d11e.png)
 
+# OS Version Detection
 
+One other useful feature is version detection, which you can enable using the -sV option.
+
+     nmap -sV scanme.nmap.org
+     
+![174544911-36b20e20-4829-4846-9e33-77ccad418e74](https://user-images.githubusercontent.com/106522935/202689317-838fa3df-55fe-4480-aefa-41bc61bd467c.png)
+   
 
 # Nmap Output Formats
 
