@@ -162,3 +162,7 @@ Heartbleed detection is one of the available SSL scripts. It will detect the pre
 Find Information about IP address	
 
      nmap --script=asn-query,whois,ip-geolocation-maxmind 192.168.1.0/24
+     
+Gather information related to the IP address and netblock owner of the IP address. Uses ASN, whois and geoip location lookups. See the IP Tools for more information and similar IP address and DNS lookups.
+
+
