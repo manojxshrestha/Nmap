@@ -121,3 +121,14 @@ Detect OS and Services
      nmap -A 192.168.1.1
  
 
+# Nmap Output Formats
+
+Save default output to file
+     
+     nmap -oN outputfile.txt 192.168.1.1
+     
+Save results in a format for grep	
+
+     nmap -oG outputfile.txt 192.168.1.1
+     
+     
