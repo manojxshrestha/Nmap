@@ -149,3 +149,16 @@ Find web apps from known paths
      nmap --script=http-enum 192.168.1.0/24
 
      
+# Detect Heartbleed SSL Vulnerability
+
+Heartbleed Testing	
+     
+     nmap -sV -p 443 --script=ssl-heartbleed 192.168.1.0/24
+     
+Heartbleed detection is one of the available SSL scripts. It will detect the presence of the well known Heartbleed vulnerability in SSL services. Specify alternative ports to test SSL on mail and other protocols.
+
+# IP Address information
+
+Find Information about IP address	
+
+     nmap --script=asn-query,whois,ip-geolocation-maxmind 192.168.1.0/24
