@@ -149,6 +149,10 @@ Find web apps from known paths
      nmap --script=http-enum 192.168.1.0/24
 
      
+ # Scan All TCP UDP Ports
+ 
+      sudo nmap -sU -sT -p0-65535 192.168.122.1
+      
 # Detect Heartbleed SSL Vulnerability
 
 Heartbleed Testing	
