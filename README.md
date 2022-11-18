@@ -226,5 +226,5 @@ You should now have a basic understanding of Nmap and how you can use it. You ca
 
 Of course, Nmap supports other options that we didn’t cover in this post. In fact, we’ve only scratched the surface here.
 
-For further reading, you can refer to the official Nmap reference guide, and if you ever need help while typing a command, just type in the following command: nmap – -help.
+For further reading, you can refer to the official Nmap reference guide, and if you ever need help while typing a command, just type in the following command: nmap --help.
 
