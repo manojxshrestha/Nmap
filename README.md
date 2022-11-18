@@ -113,3 +113,11 @@ Scan UDP ports
 Scan selected ports - ignore discovery	
      
      nmap -Pn -F 192.168.1.1
+          
+# Service and OS Detection
+
+Detect OS and Services
+
+     nmap -A 192.168.1.1
+ 
+
