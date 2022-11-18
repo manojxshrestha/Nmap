@@ -13,13 +13,18 @@ or
 
      sudo apt install nmap
 
+
      git clone https://github.com/nmap/nmap.git
+
 
      ./configure
 
+
      make
 
+
      make install
+
 
 # Host Discovery
 
