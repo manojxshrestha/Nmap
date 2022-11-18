@@ -44,12 +44,12 @@ By providing 192.168.1.0-255 as the target, Nmap will scan all addresses ranging
 
 ![174541926-a5715b53-407b-4865-b705-13c8301e335c (1)](https://user-images.githubusercontent.com/106522935/202656453-9516cb01-71c6-4adc-b474-d46336a3f177.png)
 
-Nmap – Host Discovery As shown in this output, Nmap detected 5 hosts that are connected to my network.
+Nmap – Host Discovery as shown in this output, Nmap detected 5 hosts that are connected to my network.
 
 This type of scan is also called a ping sweep.
 
 # Single IP Scan
 To scan a single ip we simply give one ip as follows:
 
-     sudo nmap -sn 192.168.254.10
+     sudo nmap -sn 192.168.100.9
      
