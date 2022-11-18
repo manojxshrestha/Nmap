@@ -95,5 +95,21 @@ Scan 100 most common ports (Fast)
 Scan all 65535 ports	
 
      nmap -p- 192.168.1.1
+    
+# Nmap Port Scan types
+
+Scan using TCP connect
+
+     nmap -sT 192.168.1.1
      
+Scan using TCP SYN scan (default)	
      
+     nmap -sS 192.168.1.1
+     
+Scan UDP ports	
+     
+     nmap -sU -p 123,161,162 192.168.1.1
+     
+Scan selected ports - ignore discovery	
+     
+     nmap -Pn -F 192.168.1.1
