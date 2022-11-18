@@ -7,23 +7,19 @@ Nmap is a network utility tool  which is used to enumerate hosts in the network 
 
 # Installation
 
-     sudo apt-get install nmap
+    $ sudo apt-get install nmap
 
 or
 
-     sudo apt install nmap
+    $ sudo apt install nmap
+    
+    $ git clone https://github.com/nmap/nmap.git
 
+    $ ./configure
 
-     git clone https://github.com/nmap/nmap.git
+    $ make
 
-
-     ./configure
-
-
-     make
-
-
-     make install
+    $ make install
 
 
 # Host Discovery
