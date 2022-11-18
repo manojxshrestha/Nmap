@@ -204,7 +204,7 @@ Find web apps from known paths
  
       sudo nmap -sU -sT -p0-65535 192.168.122.1
       
-# Simple command for scanning your local network (class C or /24):
+# Simple Command for Scanning your Local Network (Class C or /24):
 
      nmap -sV -p 1-65535 192.168.1.1/24
  
