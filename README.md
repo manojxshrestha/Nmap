@@ -5,6 +5,22 @@
 
 Nmap is a network utility tool  which is used to enumerate hosts in the network , perform  reconnaissance or information gathering , vulnerability detection , exploitation and much more. 
 
+# Installation
+
+     sudo apt-get install nmap
+
+or
+
+     sudo apt install nmap
+
+     git clone https://github.com/nmap/nmap.git
+
+     ./configure
+
+     make
+
+     make install
+
 # Host Discovery
 
 Discovering the target host(s) is the first step towards network reconnaissance. There are multiple ways through which we can determine if the hosts are alive or not.
