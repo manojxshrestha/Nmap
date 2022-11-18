@@ -21,6 +21,10 @@ or
 
     $ make install
 
+# Usage:
+
+    $ nmap [options] target
+    
 
 # Host Discovery
 
