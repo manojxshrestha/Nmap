@@ -111,6 +111,10 @@ Scan UDP ports
      nmap -sU 192.168.1.1
      
      nmap -sU -p 123,161,162 192.168.1.1
+    
+ACK Scan
+     
+     nmap -sA 192.168.1.1
      
 Scan selected ports - ignore discovery	
      
