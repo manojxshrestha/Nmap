@@ -132,3 +132,20 @@ Save results in a format for grep
      nmap -oG outputfile.txt 192.168.1.1
      
      
+# HTTP Service Information
+
+     Usage : nmap -sV --script=http-enum <target>
+     
+Gather page titles from HTTP services	
+     
+     nmap --script=http-title 192.168.1.0/24
+     
+Get HTTP headers of web services	
+     
+     nmap --script=http-headers 192.168.1.0/24
+     
+Find web apps from known paths	
+
+     nmap --script=http-enum 192.168.1.0/24
+
+     
