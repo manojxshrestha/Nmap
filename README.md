@@ -53,3 +53,19 @@ To scan a single ip we simply give one ip as follows:
 
      sudo nmap -sn 192.168.100.9
      
+
+# Nmap Target Selection
+
+Scan a single IP
+     nmap 192.168.1.1
+     
+Scan a domain	
+     nmap www.domaimname.com
+     
+Scan a range of IPs
+     nmap 192.168.1.1-20
+
+Scan a subnet
+     nmap 192.168.1.0/24
+Scan targets from a text file
+     nmap -iL list-of-ips.txt
